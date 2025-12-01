@@ -1,0 +1,280 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cv-style} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+%\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\sethyphenation[variant=british]{english}{} 
+
+%\usepackage{titlesec}
+%\titlespacing{\section}{0pt}{\parskip}{-\parskip}
+
+\begin{document}
+
+\header{stefan}{wojcik} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+~
+\href{mailto:stefan.j.wojcik@gmail.com}{stefan.j.wojcik@gmail}
+%\href{http://spot.colorado.edu/~stwo0664/}{http://spot.colorado.edu/~stwo0664/}
+\href{http://twitter.com/stefanjwojcik}{tw://stefanjwojcik}
+\section{programming languages}
+{\color{red} $\varheartsuit$} Julia,
+{\color{red} $\varheartsuit$} Python,
+{\color{red} $\varheartsuit$} R,
+SQL
+ \& Bash
+\section{natural languages}
+english mother tongue
+spanish - fluent
+portuguese - fluent
+\end{aside}
+
+
+\section{about}
+
+I'm a Computational Social Scientist specializing in large-scale digital trace data to understand human behavior. 
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2010--2014}
+{PhD {\normalfont of Political Science}}
+{The University of Colorado, Boulder}
+{Comparative Politics, Statistical Methods}
+%\\ My thesis used computational methods to understand political networks in Brazil.
+
+%------------------------------------------------
+
+\entry
+{2008--2010}
+{Master {\normalfont of Political Science}}
+{The University of Wisconsin, Milwaukee}
+{Comparative Politics}
+
+%------------------------------------------------
+
+\entry
+{2003--2007}
+{Bachelor {\normalfont of Political Science, Spanish}}
+{The University of Minnesota, Duluth}
+{Specialized in Political Theory}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+
+\entry
+{2023--2025}
+{NATIONAL GRID RENEWABLES/(GERONIMO)}
+{Remote}
+{ \jobtitle{Principal Data Scientist} \\
+I led a small team in developing a machine learning system for energy price forecasting, battery scheduling, and automated trading. This zero-to-one effort produced a platform capable of accurately predicting five distinct price outcomes and optimizing battery operations in real time. I oversaw people management, product strategy, and engineering execution. The system increased annual revenue capture for renewable and battery assets by 20–30\%.  
+%
+}
+
+%------------------------------------------------
+
+\entry
+{2021--2023}
+{TWITTER}
+{Remote}
+{ \jobtitle{Staff Data Scientist} \\
+I partnered with cross-functional teams to research and measure the overall health of the Twitter platform. This work included designing and fielding large-scale surveys, applying statistical analysis, and directly informing product development (e.g., Birdwatch/Community Notes). I also productionized customer revenue models to guide key financial decisions and audited machine learning algorithms to ensure demographic and political representativeness.
+}
+
+
+
+\entry
+{2019--2021}
+{TWITTER}
+{Washington, DC}
+{ \jobtitle{Staff Quant User Researcher} \\
+I led Twitter's internal survey efforts to understand customer attitudes around the 2020 US elections, and led similar workstreams around platform health. My team conceived and executed research using survey and digital trace data to understand people's perceptions, needs, and experiences on Twitter. I also led survey work around generative AI to inform policy about labeling this content on the site. My team built statistical tools to locate representative samples of people on Twitter.%, and when appropriate combine survey responses with behavioral data to get a more complete view of attitudes and behaviors.\\
+}
+%------------------------------------------------
+
+\entry
+{2017--2019}
+{THE PEW RESEARCH CENTER}
+{Washington, DC}
+{ \jobtitle{Computational Social Scientist} \\
+I conducted surveys of online populations, and applied a variety of modern machine learning and statistical tools to digital trace data, including text, images, and survey data. Utilized deep learning models, support vector machines, hierarchical models, and tree-based models. \\ \emph{-Media trained}} \\
+
+%------------------------------------------------
+
+\entry
+{2014--2016}
+{THE LAZER LAB}
+{Harvard University/ Northeastern University}
+{\emph{Postdoctoral Fellow of Computational Social Science} \\
+Forecasted global elections, tracked flu rates in collaboration with Microsoft Research, developed methods to extract representative data from Twitter to predict public opinion, flu, movie revenues.}
+
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{selected publications}
+
+\begin{itemize}
+\item 2024 ``Facing Voters: Gender Expression, Gender Stereotypes, and Vote Choice''. \textbf{Journal of Politics}. (with Shawnna Mullenax). \href{https://www.journals.uchicago.edu/doi/full/10.1086/729958}{LINK} 
+
+\item 2022 ``Birdwatch: Crowd Wisdom and Bridging Algorithms can Inform Understanding and Reduce the Spread of Misinformation''. \textbf{Arxiv}. (with Sophie Hilgard, Nick Judd, Delia Mocanu, Stephen Ragain, M.B. Fallin Hunzaker, Keith Coleman, and Jay Baxter). \href{https://arxiv.org/abs/2210.15723}{LINK} 
+
+\item 2021 ``Survey data and human computation for improved flu tracking''. \textbf{Nature Communications}. (with Avleen Bijral, et al.). \href{https://www.nature.com/articles/s41467-020-20206-z}{LINK}. 
+
+\item 2019 ``The challenges of using machine learning to identify gender in images''. \textbf{Pew Research Center}. (with  Emma Remy). \href{https://www.pewresearch.org/internet/2019/09/05/the-challenges-of-using-machine-learning-to-identify-gender-in-images/}{LINK}. 
+
+\item 2019 ``Sizing Up Twitter Users''. \textbf{Pew Research Center}. (with  Adam Hughes). \href{https://www.pewinternet.org/2019/04/24/sizing-up-twitter-users/}{LINK}. 
+
+%\item 2019 ``Gender and Jobs in Online Image Searches''. \emph{Pew Research Center}. (with Onyi Lam, Adam Hughes, and Brian Broderick). \href{https://www.pewsocialtrends.org/2018/12/17/gender-and-jobs-in-online-image-searches/}{LINK}. 
+
+\item 2018 ``Bots in the Twittersphere''. \textbf{Pew Research Center}. (with  Solomon Messing, Aaron Smith, Lee Rainie and Paul Hitlin). \href{http://www.pewinternet.org/2018/04/09/bots-in-the-twittersphere/}{LINK}. 
+
+\item 2017 ``Do Birds of a Feather Vote Together, or Is It Peer Influence?".  \textbf{Political Research Quarterly}. 
+
+\item 2017 ``Are Democracies Cheaper? Regime Type, Electoral System, and Consumer Price Levels" (with Andy Baker).  \textbf{International Political Science Review}.
+
+\item 2017 ``Voters of the Year: 19 Voters Who Were Unintentional Election Poll Sensors on Twitter " (with Will Hobbes, Lisa Friedland, Kenneth Joseph, Oren Tsur, and David Lazer).  \textbf{ICWSM} 2017.
+
+\item 2017 ``Improving Election Prediction Internationally". (with Ryan Kennedy and David Lazer). \textbf{Science} Vol. 355 Issue 6324: 515-520. 
+
+\item 2017 ``Men Idle, Women Network: How Networks Help Female Legislators Succeed". (with Shawnna Mullenax). Winner of Best Graduate Student Paper, Department of Political Science, CU-Boulder. \textbf{Legislative Studies Quarterly}.
+
+\item 2016 ``Political Networks and Computational Social Science``. (with David Lazer).  \textbf{Oxford Handbook of Political Networks}. 
+
+%\item 2016 ``Gaming for science: A demo of online experiments on VolunteerScience. com'' \emph{Proceedings of the 19th ACM Conference on Computer Supported Cooperative Work and Social Computing Companion. pp. 86-89.}
+
+%\item 2016 ``Why Legislative Networks? Analyzing Legislative Network Formation``.  \textbf{Political Science Research and Methods}. 
+
+%\item 2015 ``The Changing Role of Ministers in the Legislative Agenda in Brazil''. (with Lucio Renn\'o). RIEL - Revista Ibero-Americana de Estudos Legislativos. Number 4, May 2015. Rio De Janeiro, FGV. 
+
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{selected presentations}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry 
+{2024}
+{Invited Talk}
+{Google IQ Talks}
+{Birdwatch:Crowd Wisdom and Bridging Algorithms can Inform Understanding and Reduce the Spread of Misinformation}
+
+\entry 
+{2024}
+{Invited Talk}
+{University of Colorado Denver Symposium}
+{Birdwatch:Crowd Wisdom and Bridging Algorithms can Inform Understanding and Reduce the Spread of Misinformation}
+
+\entry
+{2020}
+{Conference Presentation}
+{International Conference on Computational Social Science}
+{Mind Map: A Bootstrapping Approach to Topic Extraction}
+
+\entry
+{2019}
+{Methods Presentation}
+{The World Bank}
+{Co-presented research conducted about gender representation in online news.}
+
+%------------------------------------------------
+
+%\entry
+%{2018}
+%{Oral Presentation}
+%{European External Action Service}
+%{Presented research conducted about bots on Twitter.}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{selected awards}
+\begin{itemize}
+\item National Science Foundation Political Networks Conference Fellowship, Portland, Oregon, June 2015, total \$700
+%\item Best Graduate Student Paper (with Shawnna Mullenax), University of Colorado, 2014, total \$100
+\item Graduate School Summer Fellowship, University of Colorado, 2014, total \$6000
+\item Beverly Sears Research Award, University of Colorado, 2014, total \$1000
+%\item Latin American Research Cluster Grant, University of Colorado 2013, 2014, total \$250
+\item Political Science Summer Research Grant, University of Colorado 2012, 2013, 2014, total \$1800, \$2500, \$2250
+\end{itemize}
+
+
+%\printbibsection{article}{article in peer-reviewed journal} % Print all articles from the bibliography
+%\printbibsection{book}{books} % Print all books from the bibliography
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=bibheading]
+%\end{refsection}
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=bibheading]
+%\end{refsection}
+%\printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
+%\printbibsection{report}{research reports} % Print all research reports from the bibliography
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{interests}
+
+%\textbf{professional:} data analysis, company profiling, risk analysis, economics, web design, web app creation, software design, marketing \textbf{personal:} piano, chess, cooking, dancing, running
+
+\end{document}
